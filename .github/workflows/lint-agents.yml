@@ -3,6 +3,7 @@ name: Lint Agent Files
 on:
   pull_request:
     paths:
+      - ".github/workflows/lint-agents.yml"
       - "academic/**"
       - "design/**"
       - "engineering/**"
